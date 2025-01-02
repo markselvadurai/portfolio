@@ -39,7 +39,7 @@ jobs:
             host: ${{ secrets.VPS_HOST }}  # Your VPS IP or domain
             username: root  # VPS username (e.g., root)
             password: ${{ secrets.VPS_PASSWORD }}  # Private SSH key
-            port: 3000
+            port: 22
             script: |
               # Log in to GHCR on the VPS
               echo ${{ secrets.DOCKER_PASSWORD }} | docker login ghcr.io -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
