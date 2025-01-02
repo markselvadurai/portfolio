@@ -38,7 +38,7 @@ jobs:
           with:
             host: ${{ secrets.VPS_HOST }}  # Your VPS IP or domain
             username: root  # VPS username (e.g., root)
-            key: ${{ secrets.VPS_PASSWORD }}  # Private SSH key
+            password: ${{ secrets.VPS_PASSWORD }}  # Private SSH key
             port: 3000
             script: |
               # Log in to GHCR on the VPS
