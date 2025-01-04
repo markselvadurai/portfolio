@@ -63,7 +63,7 @@ export const HeroSection2 = () => {
             </button>
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span className="">🫡</span>
-              <span className="font-semibold">Lets Connect</span>
+              <span className="font-semibold"><a href="https://linkedin.com/in/mselvad">Lets Connect</a></span>
             </button>
           </div>
         </div>
