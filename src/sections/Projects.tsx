@@ -22,7 +22,7 @@ const portfolioProjects = [
       { title: "Utilizes Back-end API to load product data" },
       { title: "Utilized Docker to containerize and deploy" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://ecommerce.markselvadurai.com/",
     image: ecommerce,
   },
   {
