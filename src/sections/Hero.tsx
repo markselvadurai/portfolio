@@ -50,12 +50,11 @@ export const HeroSection = () => {
 
           <h1 className="md:text-5xl font-serif text-3xl text-center mt-8 tracking-wide">Building Exceptional User Experiences</h1>
           <p className="md:text-lg text-center mt-4 text-white/60">
-            I am a software engineer who specializes in building exceptional user experiences. I am passionate about
-            creating products that are both beautiful and functional.
+          I am a software engineer focused on crafting outstanding user experiences. I’m driven by the passion to design products that seamlessly blend beauty with functionality.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: 'smooth' })}>
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>

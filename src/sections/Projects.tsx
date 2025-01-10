@@ -11,6 +11,7 @@ import { Card } from "@/components/Card";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { ShootingStars } from "@/components/ui/shooting-stars";
+import portfolio from "@/assets/images/portfolio.png";
 
 const portfolioProjects = [
   {
@@ -26,16 +27,16 @@ const portfolioProjects = [
     image: ecommerce,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Mark Selvadurai",
+    year: "2025",
+    title: "Portfolio Page",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Created an interactive React/Next.js Application" },
+      { title: "Used Tailwind CSS to make the application fully responsive across devices"},
+      { title: "Containerized and deployed using Docker" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://markselvadurai.com",
+    image: portfolio,
   },
   {
     company: "Quantum Dynamics",
@@ -85,7 +86,7 @@ export const ProjectsSection = () => {
                         </li>
                       ))}
                     </ul>
-                    <a href={project.link}>
+                    <a href={project.link} target="none" rel="noopener noreferrer">
 
                       <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 md:w-auto px-7">
                         <span>View Live Site</span>

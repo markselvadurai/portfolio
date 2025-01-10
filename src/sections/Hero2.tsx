@@ -57,14 +57,21 @@ export const HeroSection2 = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-            <button className="h-12 animate-shimmer justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 inline-flex items-center gap-2 border-white/15 ">
+            <button className="h-12 animate-shimmer justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 inline-flex items-center gap-2 border-white/15 " onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: 'smooth' })}>
               <span className="font-semibold">Explore My Projects</span>
               <ArrowDown className="size-4" />
             </button>
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span className="">🫡</span>
-              <span className="font-semibold"><a href="https://linkedin.com/in/mselvad">Lets Connect</a></span>
+              <span className="font-semibold"><a href="https://linkedin.com/in/mselvad" target="none">Lets Connect</a></span>
             </button>
+            <button className="h-12 animate-shimmer justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 inline-flex items-center gap-2 border-white/15 ">
+            <a href='https://docs.google.com/document/d/1iPslmK7ydCnK05wg-BJgIPQIhJRZNujy/export?format=pdf' rel="noopener noreferrer"  download='Mark_Selvadurai.pdf'>
+              <span className="font-semibold">Download my Resume</span>
+              </a>
+              <ArrowDown className="size-4" />
+            </button>
+            
           </div>
         </div>
       </div>
