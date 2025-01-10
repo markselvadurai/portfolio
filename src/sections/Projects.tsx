@@ -1,5 +1,5 @@
 "use client"
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import ecommerce from "@/assets/images/ecommerce.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
@@ -14,16 +14,16 @@ import { ShootingStars } from "@/components/ui/shooting-stars";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Mark Selvadurai",
+    year: "2025",
+    title: "E-commerce Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Interactive and Responsive UI in the Front-end" },
+      { title: "Utilizes Back-end API to load product data" },
+      { title: "Utilized Docker to containerize and deploy" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: ecommerce,
   },
   {
     company: "Innovative Co",
