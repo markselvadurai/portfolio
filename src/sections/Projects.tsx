@@ -1,7 +1,7 @@
 "use client"
 import ecommerce from "@/assets/images/ecommerce.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import dashboard from "@/assets/images/dashboard.png";
 import Image from "next/image";
 import CheckCirlceIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -39,16 +39,16 @@ const portfolioProjects = [
     image: portfolio,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Mark Selvadurai",
+    year: "2025",
+    title: "Dashboard Explore Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Created a 3D interactive and animated dashboard" },
+      { title: "Used Figma and Spline for UI/UX Design" },
+      { title: "Deployed as a React app using Docker" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://dashboard.markselvadurai.com/",
+    image: dashboard,
   },
 ];
 
